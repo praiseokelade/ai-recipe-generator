@@ -5,42 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI Recipe Generator</title>
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <h1>AI Recipe Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI Recipe Generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input type="text" placeholder="Type in your ingredients" />
-        <input type="submit" />
-      </form>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Type in your ingredients"
+            required
+            class="ingredients"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
 
-      <div>
-        Step 1 Preheat an air fryer to 325 degrees F (165 degrees C) according
-        to manufacturer's instructions. Add sugar and cinnamon to a large
-        resealable plastic bag, and shake to combine.
-      </div>
-    </main>
+        <div class="recipe">
+          <strong>Step 1</strong> Preheat an air fryer to 325 degrees F (165
+          degrees C) according to manufacturer's instructions. Add sugar and
+          cinnamon to a large resealable plastic bag, and shake to combine.
+        </div>
+      </main>
 
-    <footer>
-      This AI Generator, coded by
-      <a
-        href="https://www.shecodes.io/graduates/103142-praise-okelade"
-        target="_blank"
-        >Praise Okelade</a
-      >, is open-sourced on
-      <a
-        href="https://github.com/praiseokelade/ai-recipe-generator"
-        target="_blank"
-        >GitHub</a
-      >
-      and hosted on
-      <a href="https://ai-recipe-generator-pto.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+      <footer>
+        This AI Generator, coded by
+        <a
+          href="https://www.shecodes.io/graduates/103142-praise-okelade"
+          target="_blank"
+          >Praise Okelade</a
+        >, is open-sourced on
+        <a
+          href="https://github.com/praiseokelade/ai-recipe-generator"
+          target="_blank"
+          >GitHub</a
+        >
+        and hosted on
+        <a href="https://ai-recipe-generator-pto.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>

@@ -1,1 +1,61 @@
+body {
+  background-color: #b2c5af;
+  font-family: "IBM Plex Serif", serif;
+}
 
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+form {
+  padding: 20px;
+  background-color: #e8f1e7;
+  border-radius: 10px;
+  border: 1px solid #63835f;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.ingredients {
+  width: 400px;
+  font-size: 16px;
+  padding: 15px;
+  border-radius: 15px;
+  border: 1px solid #63835f;
+}
+
+.submit-button {
+  background-color: #63835f;
+  color: #fff;
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+  width: 150px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.recipe {
+  font-size: 15px;
+  background-color: #e8f1e7;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+}
