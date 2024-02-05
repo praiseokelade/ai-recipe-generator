@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </head>
   <body>
     <div class="container">
@@ -20,7 +21,7 @@
       </header>
 
       <main>
-        <form>
+        <form id="recipe-ingredients">
           <input
             type="text"
             placeholder="Type in your ingredients"
@@ -30,11 +31,7 @@
           <input type="submit" class="submit-button" />
         </form>
 
-        <div class="recipe">
-          <strong>Step 1</strong> Preheat an air fryer to 325 degrees F (165
-          degrees C) according to manufacturer's instructions. Add sugar and
-          cinnamon to a large resealable plastic bag, and shake to combine.
-        </div>
+        <div class="recipe" id="recipe"></div>
       </main>
 
       <footer>
