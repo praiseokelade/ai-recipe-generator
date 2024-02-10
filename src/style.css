@@ -25,12 +25,19 @@ h3 {
 }
 
 form {
+  display: flex;
+}
+
+.form-wrapper {
   padding: 20px;
   background-color: #e8f1e7;
   border-radius: 10px;
   border: 1px solid #63835f;
   margin-bottom: 20px;
-  display: flex;
+}
+.example {
+    font-size: 14px;
+    margin-top: 5px;
 }
 
 .ingredients {
@@ -61,11 +68,15 @@ form {
   margin-bottom: 20px;
 }
 
+.hidden {
+    display: none;
+}
+
 footer {
   text-align: center;
   font-size: 13px;
 }
 
 a {
-    color: #63835f;
+  color: #63835f;
 }
